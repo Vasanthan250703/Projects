@@ -1,0 +1,74 @@
+h1 {
+    color: black;
+    font-size: x-large;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+body {
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+}
+button {
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border-color: black;
+    font-weight: bolder;
+    background-color: indianred;
+}
+button:hover {
+    cursor: pointer;
+}
+.container {
+    box-sizing: border-box;
+    border: 2px solid;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 40%;
+    height: 600px;
+    border-radius: 15px;
+    background-color: azure;
+    padding: 20px;
+}
+.inside {
+    text-align: center;
+}
+textarea {
+    width: 80%;
+    height: 60px;
+    margin-top: 20px;
+    
+}
+.notes-list {
+    margin-top: 20px;
+    max-height: 400px;
+}
+.note-item {
+    background-color: lightyellow;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    position: relative;
+    white-space: pre-wrap; 
+}
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}

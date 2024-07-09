@@ -1,0 +1,74 @@
+body {
+    background-color: lightskyblue;
+}
+.container {
+    box-sizing: border-box;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    background-color: azure;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-right: auto;
+    padding: 20px;
+}
+button {
+    width: 20%;
+    height: 40px;
+    background-color: violet;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    font-weight: 900;
+    font-style: oblique;
+    background-color: yellowgreen;
+}
+input[type="text"] {
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+img {
+    margin-top: 20px;
+}
+.weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.city-name {
+    font-size: 24px;
+    font-family: 'Cursive', sans-serif;
+    margin-bottom: 10px;
+}
+.temperature {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.weather-description {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 50%;
+    color: gray;
+}
+.humidity {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: cornflowerblue;
+    text-align: right;
+    width: 50%;
+}

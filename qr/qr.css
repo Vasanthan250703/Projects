@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+}
+.container {
+    box-sizing: border-box;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    background-color: azure;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-right: auto;
+    padding: 20px;
+}
+button {
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: violet;
+    margin-top: 20px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    font-weight: bolder;
+    font-style: oblique;
+}
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+input[type="text"]{
+    width:80%;
+    border-radius: 10px;
+    padding:10px;
+}
