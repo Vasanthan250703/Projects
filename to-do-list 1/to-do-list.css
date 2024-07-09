@@ -1,0 +1,83 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    width: 500px;
+    height: auto;
+    border: 4px double white;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: grey; 
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+h1 {
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 20px;
+}
+button {
+    width: 80px;
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: medium;
+    text-align: center;
+    border:none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+}
+ul {
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    cursor: pointer;
+}
+ul li::before {
+    content: ' ';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(226, 147, 43);
+    margin-right: 10px;
+}
+ul li.completed {
+    text-decoration: line-through;
+    color: #cccccc; 
+}
